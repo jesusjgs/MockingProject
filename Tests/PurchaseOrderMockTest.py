@@ -2,11 +2,11 @@ import unittest
 
 from unittest.mock import MagicMock
 
-from mockito import mock, verify
+from mockito import verify
 
-from PurchaseOrder import PurchaseOrder
+from Classes.PurchaseOrder import PurchaseOrder
 
-from Store import Store
+from Classes.Store import Store
 
 
 class TestMethods(unittest.TestCase):
